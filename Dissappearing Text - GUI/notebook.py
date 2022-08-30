@@ -19,7 +19,7 @@ class App:
         self.time_last_written = perf_counter()
 
     def clear_text(self):
-        print("Le text vient d'etre détruit")
+        print("Some random text for test")
         # Delete all of the text
         self.text.delete("0.0", "end")
 
@@ -32,83 +32,4 @@ class App:
 
 
 app = App()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from tkinter import *
-#
-#
-# # __________________ The User Interface
-# win = Tk()
-# win.config(pady=50, padx=50)
-#
-#
-# # __________________ Entry Field
-# notes = Text(width=50, height=15, font=("Arial", 20, "bold"), bg="silver", fg="black")
-# notes.grid(column=0, row=0)
-#
-#
-# def yes():
-#     notes.delete("1.0", "end-1c")
-#
-#
-# def clear():
-#     print(notes.get("1.0", "end-1c"))
-#     win.after(5000, yes)
-#     print(notes.get("1.0", "end-1c"))
-#     clear()
-#
-#
-# clear()
-#
-#
-# win.mainloop()
-
-
 
