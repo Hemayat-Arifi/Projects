@@ -1,0 +1,48 @@
+body {
+	background-color: red;
+}
+
+.forms {
+	text-align: center;
+}
+
+
+.account-forms {
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.form-header {
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.username {
+	margin-bottom: 10px;
+}
+
+.password {
+	margin-bottom: 10px;
+}
+
+.submit {
+	margin-bottom: 10px;
+
+}
+
+#logout {
+	color: #dc3545;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#logout:hover {
+	color: #383838;
+}
+
+
+#logout2{
+	float: right;
+}
